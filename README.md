@@ -1,10 +1,8 @@
 # Acid
 
-Advanced content user-interface displayer
-
 ##### What is Acid?
 
-Acid is a library built to help mobile developers in displaying complex content in a native way. By complex we mean content rich with links, and social networks embeds.
+Acid is a library built to help mobile developers with displaying complex content in a native way. By complex we mean content rich with links, and social networks embeds.
 
 ##### What does Acid mean?
 
@@ -28,7 +26,7 @@ Usually in most mobile solutions displaying complex content, the developers use 
 ##### What is it based on?
 
 Well to be honest, we as mobile developers always nag about not being able to display natively the content for our users in a smooth way. But we couldn't do much about it. We receive some HTML text and we throw it in a web view.
-And then came our backend team, with a great solution: [The Laravel Editor](https://github.com/Vinelab/laravel-editor). From what it explains, this will transform the HTML content into a clean JSON response. The response will have the embeds with all the needed data surrounding each one separately. 
+And then came our backend team, with a great solution: sending the editor's content as a smart object. This will transform the HTML content into a clean JSON response. The response will have the embeds with all the needed data surrounding each one separately. 
 Our mission will be to handle those detailed objects and display freely the content.
 
 ##### What's missing?
